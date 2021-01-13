@@ -18,7 +18,8 @@ For the program to run, we need to use an extra file created in a pratical class
 ```
 
 ## Como correr
-* Compilar com o seguinte comando ou similar:
+* Compile the following way:
+* The file created will be redirected to output.txt (tee output.txt)
 ```console
 Compile and run this program and redirect its output to a file
 //      This can be done by running the following commands
