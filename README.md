@@ -1,4 +1,4 @@
-# AED_Trabalho1
+# AED_Trabalho2
 * Study of some sorting routines.
 
 In the archive A02.tgz you will find code that can be used to measure the execution time of some sorting routines.
