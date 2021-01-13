@@ -22,6 +22,8 @@ set logscale xy
 set grid 
 set key left
 set format xy "%0e"
+set xlabel "n"
+set ylabel "Tempo(s)"
 plot data_file i 0 u 1:5 w p t 'Bubble Sort'   ,\
      data_file i 1 u 1:5 w p t 'Shaker Sort'   ,\
      data_file i 2 u 1:5 w p t 'Insertion Sort',\
@@ -38,6 +40,8 @@ set logscale xy
 set grid 
 set key left
 set format xy "%0e"
+set xlabel "n"
+set ylabel "Tempo(s)"s
 plot data_file i 0 u 1:3 w p t 'Max Time' ,\
      data_file i 0 u 1:4 w p t 'Avg Time' ,\
      data_file i 0 u 1:2 w p t 'Min Time'
