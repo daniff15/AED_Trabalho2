@@ -29,6 +29,3 @@ for o = 1:(length(idx)-1)
     legend('Tempos médios','X*w')
   
 end
-
-
-%
