@@ -1,0 +1,1 @@
+grep "^[^#]" output.txt | awk '{print $1 " " $4}' > avg_time.txt
