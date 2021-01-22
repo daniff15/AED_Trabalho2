@@ -4,6 +4,7 @@ set logscale xy
 set grid 
 set key left
 set format xy "%0e"
+set yrange [1e-7:1e-6]
 set xlabel "n"
 set ylabel "Tempo(s)"
 plot data_file i 0 u 1:4 w p t 'Bubble Sort'   ,\
